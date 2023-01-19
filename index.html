@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SBAE</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="box">
+        <div class="form">
+            <h2>Bienvenido</h2>
+            <div class="SBAE-logo">
+            <img class="SBAE-img" src="./images/cropped-cropped-logo-sbae-vertical-05.png" alt="SBAE-logo">
+            </div>
+            <form id="form" action="login.php" method="POST" autocomplete="off">
+                <div class="inputBox">
+                    <input id="usuario" type="text" name="username" required="required">
+                    <label>Username</label>
+                    <i></i>
+                </div>
+                <div class="inputBox">
+                    <input id="clave" type="password" name="password" required="required">
+                    <label>Password</label>
+                    <i></i>
+                </div>
+                <div class="button">
+                <input id="submit" type="submit" name="submit" value="Entrar">
+                </div>
+            </form>
+        </div>
+    </div>
+    <script src="app.js" ></script>
+</body>
+</html>
